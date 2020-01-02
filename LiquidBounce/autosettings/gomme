@@ -4,12 +4,13 @@ load aac
 AutoArmor MaxDelay 100
 AutoArmor MinDelay 75
 AutoArmor ItemDelay 1300
+AutoArmor Hotbar true
 AutoArmor SimulateInventory true
 Scaffold Mode Normal
 Scaffold Sprint false
 Scaffold Eagle false
-Scaffold MinDelay 175
-Scaffold MaxDelay 80
+Scaffold MaxDelay 175
+Scaffold MinDelay 80
 Scaffold PlaceableDelay false
 Scaffold SpeedModifier 0.80
 Scaffold Timer 1
@@ -22,7 +23,7 @@ ChestStealer MinDelay 100
 targetDead true
 # Velocity Mode AACZero
 Velocity Mode AACPush
-NoSlow Sword AAC
+NoSlow Sword NCP
 KillAura AutoBlock true
 KillAura InteractAutoBlock false
 KillAura BlockRate 100
@@ -31,8 +32,13 @@ Tower JumpMotion 0.41
 Fucker Instant true
 Fucker ThroughWalls Around
 Fucker Surroundings false
+Fucker id 26
+Speed Mode AACHop3.3.13
 
 # Toggles
 SuperKnockback toggle true
 FastUse toggle false
 FastClimb toggle false
+
+# Chat
+chat Use .settings gomme-vel when you are playing BedWars, SkyWars or a another gamemode with disabled velocity check.

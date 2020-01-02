@@ -1,5 +1,5 @@
 # AutoSettings for Advanced AntiCheat
-# Tested AAC 3.5.0 on test.kons.co and poke.sexy
+# Tested AAC 3.6.4 on test.kons.co and poke.sexy
 
 # Settings
 AutoArmor MaxDelay 0
@@ -52,10 +52,10 @@ KillAura TurnSpeed 25
 KillAura MaxTurnSpeed 30
 KillAura MinTurnSpeed 20
 KillAura RandomCenter true
-KillAura Outborder false
+KillAura Outborder true
 KillAura Predict true
 KillAura PredictSize 1.5
-KillAura NoInvAttack true
+KillAura NoInvAttack false
 KillAura NoInvDelay 0
 KillAura FOV 180.0
 KillAura FakeSwing true
@@ -77,7 +77,7 @@ Scaffold AutoBlock true
 Scaffold StayAutoBlock true
 Scaffold KeepRotation false
 Scaffold Zitter false
-Speed Mode AACLowHop3
+Speed Mode AACHop3.5.0
 Step Mode AAC3.3.4
 Tower Mode Jump
 Tower AutoBlock true
@@ -87,7 +87,8 @@ Trigger MinCPS 8
 Velocity Horizontal 0.4
 Velocity Vertical 0.4
 Velocity Mode AACPush
-Velocity Reverse2Strength 0.05
+Velocity AACPushXZReducer 2
+Velocity AACPushYReducer false
 Sprint AllDirections false
 Sprint CheckServerSide true
 WallClimb Mode Clip
