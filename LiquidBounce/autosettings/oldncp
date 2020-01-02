@@ -41,6 +41,7 @@ KillAura MaxTurnSpeed 180
 KillAura MinTurnSpeed 180
 KillAura RotationStrafe false
 KillAura RandomCenter false
+KillAura Outborder false
 KillAura BlockRate 100
 KillAura Predict true
 KillAura MaxPredictSize 1
@@ -68,7 +69,7 @@ Sprint CheckServerSide false
 Step Mode NCP
 Step Height 1.0
 Step Delay 0
-Tower Mode Motion
+Tower Mode ConstantMotion
 Tower AutoBlock true
 Tower StayAutoBlock false
 Tower Swing true
