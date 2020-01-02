@@ -46,7 +46,7 @@ KillAura RaycastIgnored true
 KillAura LivingRayCast true
 KillAura AAC false
 KillAura MaxTurnSpeed 120
-KillAura MinTurnSpeed 60
+KillAura MinTurnSpeed 80
 KillAura SilentRotation true
 KillAura RotationStrafe false
 KillAura RandomCenter false
