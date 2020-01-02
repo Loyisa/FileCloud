@@ -1,4 +1,5 @@
 # AutoSettings for NoCheatPlus
+# Tested on Ncp b1152
 AutoArmor MaxDelay 100
 AutoArmor MinDelay 75
 AutoArmor ItemDelay 0
@@ -7,7 +8,7 @@ AutoArmor SimulateInventory false
 AutoArmor NoMove false
 ChestStealer MaxDelay 100
 ChestStealer MinDelay 75
-Criticals Mode Packet
+Criticals Mode NoGround
 Criticals Delay 0
 FastUse Mode NCP
 Fly Mode NCP
@@ -19,7 +20,7 @@ InventoryCleaner InvOpen false
 InventoryMove AACAdditionPro false
 InventoryMove NoMoveClicks false
 KillAura MaxCPS 12
-KillAura MinCPS 7
+KillAura MinCPS 8
 KillAura HurtTime 10
 KillAura Range 4.2
 KillAura RangeSprintReducement 0.0
@@ -40,14 +41,21 @@ KillAura TurnSpeed 180.0
 KillAura FOV 180.0
 KillAura MaxTurnSpeed 180
 KillAura MinTurnSpeed 180
+KillAura RotationStrafe false
 KillAura RandomCenter false
+KillAura Outborder false
 KillAura BlockRate 100
 KillAura Predict true
-KillAura PredictSize 1
+KillAura MaxPredictSize 1
 KillAura FakeSwing false
 LiquidWalk Mode NCP
+LiquidWalk NoJump true
 LongJump Mode NCP
 LongJump NCPBoost 3
+
+#Idk why but it works
+NoFall Mode Spartan
+
 NoSlow Sword NCP
 NoSlow Consume NCP
 NoSlow Bow NCP
@@ -56,11 +64,15 @@ Scaffold Mode Normal
 Scaffold Delay 0
 Scaffold AutoBlock true
 Scaffold StayAutoBlock false
+Scaffold PlaceTiming Post
 Scaffold KeepRotation false
 Scaffold Eagle false
 Scaffold Zitter false
 Scaffold Timer 1
-Scaffold SpeedModifier 1.1
+Scaffold SpeedModifier 1.0
+Scaffold SameY false
+Scaffold SafeWalk true
+Scaffold AirSafe true
 ServerCrasher Mode AACNew
 Speed Mode NCPHop
 Sprint AllDirections true
@@ -68,7 +80,7 @@ Sprint CheckServerSide false
 Step Mode NCP
 Step Height 1.0
 Step Delay 250
-Tower Mode Motion
+Tower Mode ConstantMotion
 Tower AutoBlock true
 Tower StayAutoBlock false
 Tower Swing true
