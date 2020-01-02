@@ -17,7 +17,7 @@ ChestStealer MaxDelay 0
 ChestStealer MinDelay 0
 ChestStealer TakeRandomized true
 Criticals Mode Jump
-FastClimb Bypass LAAC
+FastClimb Mode LAAC
 FastUse Mode AAC
 Fly Mode AAC3.3.12
 Fucker Instant false
