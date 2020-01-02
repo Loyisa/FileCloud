@@ -21,12 +21,12 @@ InventoryMove NoMoveClicks false
 KillAura MaxCPS 12
 KillAura MinCPS 7
 KillAura HurtTime 10
-KillAura Range 4.1
+KillAura Range 4.2
 KillAura RangeSprintReducement 0.0
 KillAura Priority Health
 KillAura TargetMode Switch
 KillAura ThroughWalls true
-KillAura ThroughWallsRange 4.1
+KillAura ThroughWallsRange 4.2
 KillAura Swing true
 KillAura KeepSprint true
 KillAura AutoBlock true
@@ -67,7 +67,7 @@ Sprint AllDirections true
 Sprint CheckServerSide false
 Step Mode NCP
 Step Height 1.0
-Step Delay 0
+Step Delay 250
 Tower Mode Motion
 Tower AutoBlock true
 Tower StayAutoBlock false
