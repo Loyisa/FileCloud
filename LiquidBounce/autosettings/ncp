@@ -19,8 +19,6 @@ ChestStealer ChestTitle true
 Criticals Mode NoGround
 Criticals Delay 0
 FastUse Mode NCP
-Fly Mode NCP
-Fly NCPMotion 0.0
 IceSpeed Mode NCP
 InventoryCleaner MaxDelay 100
 InventoryCleaner MinDelay 75
@@ -136,6 +134,7 @@ SuperKnockback toggle true
 NoWeb toggle false
 BufferSpeed toggle false
 WaterSpeed toggle false
+Fly toggle false
 
 # NCP combined.improbable
 SuperKnockback toggle false
