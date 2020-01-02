@@ -19,7 +19,7 @@ InventoryCleaner InvOpen false
 InventoryMove AACAdditionPro false
 InventoryMove NoMoveClicks false
 KillAura MaxCPS 12
-KillAura MinCPS 7
+KillAura MinCPS 8
 KillAura HurtTime 10
 KillAura Range 4.2
 KillAura RangeSprintReducement 0.0
@@ -47,6 +47,7 @@ KillAura Predict true
 KillAura MaxPredictSize 1
 KillAura FakeSwing false
 LiquidWalk Mode NCP
+LiquidWalk NoJump true
 LongJump Mode NCP
 LongJump NCPBoost 3
 NoSlow Sword NCP
@@ -57,11 +58,15 @@ Scaffold Mode Normal
 Scaffold Delay 0
 Scaffold AutoBlock true
 Scaffold StayAutoBlock false
+Scaffold PlaceTiming Post
 Scaffold KeepRotation false
 Scaffold Eagle false
 Scaffold Zitter false
 Scaffold Timer 1
 Scaffold SpeedModifier 1.1
+Scaffold SameY false
+Scaffold SafeWalk true
+Scaffold AirSafe true
 ServerCrasher Mode AACNew
 Speed Mode NCPBHop
 Sprint AllDirections true
