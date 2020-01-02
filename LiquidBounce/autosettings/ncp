@@ -88,3 +88,6 @@ SuperKnockback toggle true
 NoWeb toggle false
 BufferSpeed toggle false
 WaterSpeed toggle false
+
+# NCP combined.improbable
+SuperKnockback toggle false
